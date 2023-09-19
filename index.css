@@ -63,9 +63,11 @@ i {
     }
     #infolinia {
         flex-direction: column !important;
+        gap: 10px !important;
     }
     #porady {
         flex-direction: column !important;
+        gap: 10px !important;
     }
     #socials-text {
         display: none;
