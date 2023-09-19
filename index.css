@@ -1,0 +1,54 @@
+* {
+    box-sizing: 0;
+    padding: 0;
+    margin: 0;
+}
+
+a,
+i {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+#links a:hover {
+    background-color: aliceblue;
+}
+
+#footer-links a:hover {
+    background-color: #3f5a77;
+}
+#instagram:hover {
+    color: pink;
+}
+
+#twitter:hover {
+    color: cyan;
+}
+
+#youtube:hover {
+    color: red;
+}
+
+.card {
+    border-radius: 25px;
+    width: 35vw;
+}
+
+#info-icon {
+    z-index: 1;
+}
+
+#categories > #wrapper > button {
+    border-radius: 25px;
+    height: 5.5rem;
+}
+
+@media only screen and (max-width: 1356px) {
+    #article > .wrapper {
+        flex-direction: column !important;
+        align-items: center;
+    }
+    #article > .wrapper > .card {
+        width: 70vw;
+    }
+}
