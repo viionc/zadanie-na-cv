@@ -65,6 +65,9 @@ i {
         flex-direction: column !important;
         gap: 10px !important;
     }
+    #logo-wrapper {
+        padding: 0 !important;
+    }
     #porady {
         flex-direction: column !important;
         gap: 10px !important;
@@ -74,6 +77,13 @@ i {
     }
     #contact-text {
         display: none;
+    }
+    .nav-link {
+        padding: 0 !important;
+    }
+    .navbar-nav {
+        gap: 5px !important;
+        background-color: aliceblue !important;
     }
 }
 
