@@ -54,5 +54,27 @@ i {
     }
     #article > .wrapper > .card {
         width: 70vw;
+        margin: 0 !important;
     }
+}
+@media only screen and (max-width: 700px) {
+    #magnifying-glass-icon {
+        display: none;
+    }
+    #infolinia {
+        flex-direction: column !important;
+    }
+    #porady {
+        flex-direction: column !important;
+    }
+    #socials-text {
+        display: none;
+    }
+    #contact-text {
+        display: none;
+    }
+}
+
+.nav-link {
+    padding: 10px 20px !important;
 }
